@@ -1,0 +1,91 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Студия дизайна интерьера KV Design</title>
+<meta name="description" content="Студия KV-Design – студия дизайна интерьера в Киеве, специализирующаяся на улучшении планировки квартир, коттеджей и общественных помещений">
+<meta name="keywords" content="дизайн интерьера, отделка помещений, перепланировка квартир в Киеве">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="css/kvdesign.css" rel="stylesheet">
+<link href="css/index.css" rel="stylesheet">
+<script src="js/jquery-1.12.4.min.js"></script>
+<script src="js/affix.min.js"></script>
+<script src="js/scrollspy.min.js"></script>
+<script>
+$(document).ready(function()
+{
+   function resizeVideo() 
+   {
+      var ratio = 16/9;
+      var widthViewPort = $(window).width();
+      var heightViewPort = $(window).height();
+      var width, height;
+      var $player = $('#MediaPlayer1');
+      if (widthViewPort / ratio < heightViewPort)
+      {
+         width = Math.ceil(heightViewPort * ratio);
+         $player.width(width).height(heightViewPort).css({left: (widthViewPort - width) / 2, top: 0});
+      }
+      else
+      {
+         height = Math.ceil(widthViewPort / ratio);
+         $player.width(widthViewPort).height(height).css({left: 0, top: (heightViewPort - height) / 2});
+      }
+   }
+   $(window).on('resize', function() 
+   {
+      resizeVideo();
+   })
+   resizeVideo();
+   $("#wb_ResponsiveMenu1").affix({offset:{top: $("#wb_ResponsiveMenu1").offset().top}});
+});
+</script>
+</head>
+<body data-spy="scroll">
+<div id="container">
+<div id="wb_MediaPlayer1">
+<video src="Fast Sketch -  Landscape Design.mp4" id="MediaPlayer1" autoplay="autoplay" loop="loop" muted>
+</video>
+</div>
+</div>
+<div id="Layer1">
+<div id="Layer1_Container">
+</div>
+</div>
+<div id="Layer2">
+   <div id="wb_Text2">
+      <span style="color:#FFFFFF;">Студия дизайна интерьера</span></div>
+   <div id="wb_Text3">
+      <span style="color:#FFFFFF;">Привносим красивое в жизнь</span></div>
+   <div id="wb_ResponsiveMenu1">
+      <label class="toggle" for="ResponsiveMenu1-submenu" id="ResponsiveMenu1-title">Меню<span id="ResponsiveMenu1-icon"><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span></span></label>
+      <input type="checkbox" id="ResponsiveMenu1-submenu">
+      <ul class="ResponsiveMenu1" id="ResponsiveMenu1">
+         <li><a href="./portfolio.html">&#1055;&#1086;&#1088;&#1090;&#1092;&#1086;&#1083;&#1080;&#1086;</a></li>
+         <li><a href="./uslugi-i-ceny.html">&#1059;&#1089;&#1083;&#1091;&#1075;&#1080;&nbsp;&#1080;&nbsp;&#1094;&#1077;&#1085;&#1099;</a></li>
+         <li><a href="./sostav-proekta.html">&#1057;&#1086;&#1089;&#1090;&#1072;&#1074;&nbsp;&#1087;&#1088;&#1086;&#1077;&#1082;&#1090;&#1072;</a></li>
+         <li><a href="./stati.html">&#1057;&#1090;&#1072;&#1090;&#1100;&#1080;</a></li>
+         <li><a href="./kontakty.html">&#1050;&#1086;&#1085;&#1090;&#1072;&#1082;&#1090;&#1099;</a></li>
+      </ul>
+   </div>
+   <div id="wb_button150">
+      <img src="images/button150.png" id="button150" alt=""></div>
+   <div id="wb_button200">
+      <img src="images/button200.png" id="button200" alt=""></div>
+   <div id="wb_button250">
+      <img src="images/button250.png" id="button250" alt=""></div>
+   <div id="wb_button">
+      <img src="images/button.png" id="button" alt=""></div>
+   <div id="wb_logo200">
+      <img src="images/logo200.png" id="logo200" alt=""></div>
+   <div id="wb_logo">
+      <img src="images/logo.png" id="logo" alt=""></div>
+   <div id="wb_Text1">
+      <span style="color:#FFFFFF;">+ 38(096)-95-35-000</span></div>
+   <div id="wb_button100">
+      <img src="images/button100.png" id="button100" alt=""></div>
+   <div id="wb_logo125">
+      <img src="images/logo125.png" id="logo125" alt=""></div>
+</div>
+</body>
+</html>

@@ -1,0 +1,116 @@
+@font-face
+{
+   font-family: "Giger";
+   src: url('../fonts/Giger.eot');
+   src: url('../fonts/Giger.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Giger.svg#Giger') format('svg'),
+        url('../fonts/Giger.ttf') format('truetype'),
+        url('../fonts/Giger.woff') format('woff');
+}
+@font-face
+{
+   font-family: "Intro Rust G Base 2 Line";
+   src: url('../fonts/Intro Rust G Base 2 Line.eot');
+   src: url('../fonts/Intro Rust G Base 2 Line.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Intro Rust G Base 2 Line.svg#IntroRustG-Base2Line') format('svg'),
+        url('../fonts/Intro Rust G Base 2 Line.ttf') format('truetype'),
+        url('../fonts/Intro Rust G Base 2 Line.woff') format('woff');
+}
+a
+{
+   color: #696969;
+   text-decoration: none;
+}
+a:hover
+{
+   color: #696969;
+   text-decoration: none;
+}
+h1
+{
+   font-family: Giger;
+   font-weight: bold;
+   font-size: 32px;
+   font-style: normal;
+   text-decoration: none;
+   color: #000000;
+   background-color: transparent;
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+   display: inline;
+}
+h2
+{
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 27px;
+   font-style: normal;
+   text-decoration: none;
+   color: #000000;
+   background-color: transparent;
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+   display: inline;
+}
+h3
+{
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 24px;
+   font-style: normal;
+   text-decoration: none;
+   color: #000000;
+   background-color: transparent;
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+   display: inline;
+}
+h4
+{
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 21px;
+   font-style: italic;
+   text-decoration: none;
+   color: #000000;
+   background-color: transparent;
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+   display: inline;
+}
+h5
+{
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 19px;
+   font-style: normal;
+   text-decoration: none;
+   color: #000000;
+   background-color: transparent;
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+   display: inline;
+}
+h6
+{
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 16px;
+   font-style: normal;
+   text-decoration: none;
+   color: #000000;
+   background-color: transparent;
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+   display: inline;
+}
+.CustomStyle
+{
+   font-family: "Courier New";
+   font-weight: bold;
+   font-size: 16px;
+   font-style: normal;
+   text-decoration: none;
+   color: #000080;
+   background-color: transparent;
+}
