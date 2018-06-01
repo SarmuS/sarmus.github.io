@@ -1,0 +1,1012 @@
+div#container
+{
+   width: 1920px;
+   position: relative;
+   margin: 0 auto 0 auto;
+   text-align: left;
+}
+body
+{
+   background-color: #FFFFFF;
+   color: #000000;
+   font-family: "Century Gothic";
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   text-align: center;
+}
+#wb_LayoutGrid1_template
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: transparent;
+   background-image: none;
+   border: 0px #CCCCCC solid;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+#LayoutGrid1_template
+{
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   padding: 10px 10px 10px 10px;
+   margin-right: auto;
+   margin-left: auto;
+}
+#LayoutGrid1_template .row
+{
+   margin-right: -10px;
+   margin-left: -10px;
+}
+#LayoutGrid1_template .col-1, #LayoutGrid1_template .col-2
+{
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 10px;
+   padding-left: 10px;
+   position: relative;
+}
+#LayoutGrid1_template
+{
+}
+#LayoutGrid1_template .col-1, #LayoutGrid1_template .col-2
+{
+   float: left;
+}
+#LayoutGrid1_template .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   width: 50%;
+   text-align: center;
+}
+#LayoutGrid1_template .col-2
+{
+   background-color: transparent;
+   background-image: none;
+   width: 50%;
+   text-align: center;
+}
+#LayoutGrid1_template:before,
+#LayoutGrid1_template:after,
+#LayoutGrid1_template .row:before,
+#LayoutGrid1_template .row:after
+{
+   display: table;
+   content: " ";
+}
+#LayoutGrid1_template:after,
+#LayoutGrid1_template .row:after
+{
+   clear: both;
+}
+@media (max-width: 640px)
+{
+#LayoutGrid1_template .col-1, #LayoutGrid1_template .col-2
+{
+   float: none;
+   width: 100%;
+}
+}
+#wb_LayoutGrid5
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: transparent;
+   background-image: url(../images/interer-dizayn-vannaya-2552.jpg);
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-size: cover;
+   border: 0px #CCCCCC solid;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+#LayoutGrid5
+{
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   padding: 75px 10px 75px 10px;
+   margin-right: auto;
+   margin-left: auto;
+}
+#LayoutGrid5 .row
+{
+   margin-right: -10px;
+   margin-left: -10px;
+}
+#LayoutGrid5 .col-1
+{
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 10px;
+   padding-left: 10px;
+   position: relative;
+}
+#LayoutGrid5
+{
+}
+#LayoutGrid5 .col-1
+{
+   float: left;
+}
+#LayoutGrid5 .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   width: 100%;
+   text-align: left;
+}
+#LayoutGrid5:before,
+#LayoutGrid5:after,
+#LayoutGrid5 .row:before,
+#LayoutGrid5 .row:after
+{
+   display: table;
+   content: " ";
+}
+#LayoutGrid5:after,
+#LayoutGrid5 .row:after
+{
+   clear: both;
+}
+@media (max-width: 640px)
+{
+#LayoutGrid5 .col-1
+{
+   float: none;
+   width: 100%;
+}
+}
+#wb_Text3 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text3 div
+{
+   text-align: center;
+}
+#wb_LayoutGrid6
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: transparent;
+   background-image: none;
+   border: 0px #CCCCCC solid;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   margin-right: auto;
+   margin-left: auto;
+   max-width: 1200px;
+}
+#LayoutGrid6
+{
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   padding: 75px 10px 25px 10px;
+   margin-right: auto;
+   margin-left: auto;
+}
+#LayoutGrid6 .row
+{
+   margin-right: -10px;
+   margin-left: -10px;
+}
+#LayoutGrid6 .col-1
+{
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 10px;
+   padding-left: 10px;
+   position: relative;
+}
+#LayoutGrid6
+{
+}
+#LayoutGrid6 .col-1
+{
+   float: left;
+}
+#LayoutGrid6 .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   width: 100%;
+   text-align: left;
+}
+#LayoutGrid6:before,
+#LayoutGrid6:after,
+#LayoutGrid6 .row:before,
+#LayoutGrid6 .row:after
+{
+   display: table;
+   content: " ";
+}
+#LayoutGrid6:after,
+#LayoutGrid6 .row:after
+{
+   clear: both;
+}
+@media (max-width: 640px)
+{
+#LayoutGrid6 .col-1
+{
+   float: none;
+   width: 100%;
+}
+}
+#wb_Text4 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: justify;
+}
+#wb_Text4 div
+{
+   text-align: justify;
+   white-space: normal;
+}
+#wb_LayoutGrid1
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: transparent;
+   background-image: none;
+   border: 0px #CCCCCC solid;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   margin-right: auto;
+   margin-left: auto;
+   max-width: 1200px;
+}
+#LayoutGrid1
+{
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   padding: 25px 10px 75px 10px;
+   margin-right: auto;
+   margin-left: auto;
+}
+#LayoutGrid1 .row
+{
+   margin-right: -10px;
+   margin-left: -10px;
+}
+#LayoutGrid1 .col-1
+{
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 10px;
+   padding-left: 10px;
+   position: relative;
+}
+#LayoutGrid1
+{
+}
+#LayoutGrid1 .col-1
+{
+   float: left;
+}
+#LayoutGrid1 .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   width: 100%;
+   text-align: left;
+}
+#LayoutGrid1:before,
+#LayoutGrid1:after,
+#LayoutGrid1 .row:before,
+#LayoutGrid1 .row:after
+{
+   display: table;
+   content: " ";
+}
+#LayoutGrid1:after,
+#LayoutGrid1 .row:after
+{
+   clear: both;
+}
+@media (max-width: 640px)
+{
+#LayoutGrid1 .col-1
+{
+   float: none;
+   width: 100%;
+}
+}
+#wb_Text1 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: justify;
+}
+#wb_Text1 div
+{
+   text-align: justify;
+   white-space: normal;
+}
+#wb_Text2 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0px 0px 25px 0px;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text2 div
+{
+   text-align: left;
+}
+#wb_Text5 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0px 0px 25px 0px;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text5 div
+{
+   text-align: left;
+}
+#wb_LayoutGrid22_template
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: transparent;
+   background-image: url(../images/generate.png);
+   background-repeat: repeat;
+   background-position: left top;
+   border: 0px transparent solid;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+#LayoutGrid22_template
+{
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   padding: 50px 10px 50px 10px;
+   margin-right: auto;
+   margin-left: auto;
+}
+#LayoutGrid22_template .row
+{
+   margin-right: -10px;
+   margin-left: -10px;
+}
+#LayoutGrid22_template .col-1
+{
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 10px;
+   padding-left: 10px;
+   position: relative;
+}
+#LayoutGrid22_template
+{
+}
+#LayoutGrid22_template .col-1
+{
+   float: left;
+}
+#LayoutGrid22_template .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   width: 100%;
+   text-align: center;
+}
+#LayoutGrid22_template:before,
+#LayoutGrid22_template:after,
+#LayoutGrid22_template .row:before,
+#LayoutGrid22_template .row:after
+{
+   display: table;
+   content: " ";
+}
+#LayoutGrid22_template:after,
+#LayoutGrid22_template .row:after
+{
+   clear: both;
+}
+@media (max-width: 640px)
+{
+#LayoutGrid22_template .col-1
+{
+   float: none;
+   width: 100%;
+}
+}
+#wb_LayoutGrid23_template
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: transparent;
+   background-image: none;
+   border: 0px #CCCCCC solid;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   margin-right: auto;
+   margin-left: auto;
+   max-width: 1200px;
+}
+#LayoutGrid23_template
+{
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   padding: 10px 10px 10px 10px;
+   margin-right: auto;
+   margin-left: auto;
+}
+#LayoutGrid23_template .row
+{
+   margin-right: -10px;
+   margin-left: -10px;
+}
+#LayoutGrid23_template .row .col-1, #LayoutGrid23_template .row .col-2
+{
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 10px;
+   padding-left: 10px;
+   position: relative;
+}
+#LayoutGrid23_template
+{
+}
+#LayoutGrid23_template .row .col-1, #LayoutGrid23_template .row .col-2
+{
+   float: left;
+}
+#LayoutGrid23_template .row .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   width: 50%;
+   text-align: center;
+}
+#LayoutGrid23_template .row .col-2
+{
+   background-color: transparent;
+   background-image: none;
+   width: 50%;
+   text-align: center;
+}
+#LayoutGrid23_template:before,
+#LayoutGrid23_template:after,
+#LayoutGrid23_template .row:before,
+#LayoutGrid23_template .row:after
+{
+   display: table;
+   content: " ";
+}
+#LayoutGrid23_template:after,
+#LayoutGrid23_template .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#LayoutGrid23_template .row .col-1, #LayoutGrid23_template .row .col-2
+{
+   float: none;
+   width: 100%;
+}
+}
+#wb_Text23_template 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: justify;
+}
+#wb_Text23_template div
+{
+   text-align: justify;
+   white-space: normal;
+}
+#wb_Text24_template 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0px 0px 15px 0px;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text24_template div
+{
+   text-align: left;
+}
+#wb_Text25_template 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0px 0px 15px 0px;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text25_template div
+{
+   text-align: left;
+}
+#wb_Text27_template 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: justify;
+}
+#wb_Text27_template div
+{
+   text-align: justify;
+   white-space: normal;
+}
+#wb_LayoutGrid24_template
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: #161616;
+   background-image: none;
+   border: 0px transparent solid;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+#LayoutGrid24_template
+{
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   padding: 25px 10px 25px 10px;
+   margin-right: auto;
+   margin-left: auto;
+}
+#LayoutGrid24_template .row
+{
+   margin-right: -10px;
+   margin-left: -10px;
+}
+#LayoutGrid24_template .col-1
+{
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 10px;
+   padding-left: 10px;
+   position: relative;
+}
+#LayoutGrid24_template
+{
+}
+#LayoutGrid24_template .col-1
+{
+   float: left;
+}
+#LayoutGrid24_template .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   width: 100%;
+   text-align: center;
+}
+#LayoutGrid24_template:before,
+#LayoutGrid24_template:after,
+#LayoutGrid24_template .row:before,
+#LayoutGrid24_template .row:after
+{
+   display: table;
+   content: " ";
+}
+#LayoutGrid24_template:after,
+#LayoutGrid24_template .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#LayoutGrid24_template .col-1
+{
+   float: none;
+   width: 100%;
+}
+}
+#wb_Text26_template 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text26_template div
+{
+   text-align: center;
+}
+#wb_Image1_template
+{
+   vertical-align: top;
+}
+#Image1_template
+{
+   border: 0px #000000 solid;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   padding: 0px 0px 0px 0px;
+   display: block;
+   width: 100%;
+   height: auto;
+   max-width: 150px;
+   margin-left: auto;
+   margin-right: auto;
+   vertical-align: top;
+}
+#wb_ResponsiveMenu1_template
+{
+   display: block;
+   text-align: left;
+   width: 100%;
+}
+#ResponsiveMenu1_template
+{
+   background-color: #FFFFFF;
+   height: 60px;
+}
+#wb_ResponsiveMenu1_template ul
+{
+   list-style: none;
+   margin: 0;
+   padding: 0;
+   position: relative;
+}
+#wb_ResponsiveMenu1_template ul:after
+{
+   clear: both;
+   content: "";
+   display: block;
+}
+#wb_ResponsiveMenu1_template ul li
+{
+   background-color: #FFFFFF;
+   display: list-item;
+   float: left;
+   list-style: none;
+   z-index: 9999;
+}
+#wb_ResponsiveMenu1_template ul li i
+{
+   font-size: 12px;
+   width: 12px;
+}
+#wb_ResponsiveMenu1_template ul li a 
+{
+   color: #000000;
+   font-family: "Century Gothic";
+   font-size: 16px;
+   font-weight: bold;
+   font-style: normal;
+   padding: 20px 15px 10px 15px;
+   text-align: center;
+   text-decoration: none;
+}
+#wb_ResponsiveMenu1_template > ul > li > a 
+{
+   height: 30px;
+}
+.ResponsiveMenu1_template a 
+{
+   display: block;
+}
+#wb_ResponsiveMenu1_template li a:hover, #wb_ResponsiveMenu1_template li .active
+{ 
+   background-color: #FFA500;
+   color: #FFFFFF;
+}
+#wb_ResponsiveMenu1_template ul ul
+{
+   display: none;
+   position: absolute;
+   top: 60px;
+}
+#wb_ResponsiveMenu1_template ul li:hover > ul
+{
+   display: list-item;
+}
+#wb_ResponsiveMenu1_template ul ul li 
+{
+   background-color: #7A7A7A;
+   color: #FFFFFF;
+   float: none;
+   position: relative;
+   width: 120px;
+}
+#wb_ResponsiveMenu1_template ul ul li a:hover, #wb_ResponsiveMenu1_template ul ul li .active
+{
+   background-color: #CCCCCC;
+   color: #424242;
+}
+#wb_ResponsiveMenu1_template ul ul li i 
+{
+   margin-right: 4px;
+   vertical-align: middle;
+}
+#wb_ResponsiveMenu1_template ul ul li a 
+{
+   color: #FFFFFF;
+   padding: 15px 20px 15px 20px;
+   text-align: left;
+   vertical-align: middle;
+}
+#wb_ResponsiveMenu1_template ul ul ul li 
+{
+   left: 120px;
+   position: relative;
+   top: -60px;
+}
+#wb_ResponsiveMenu1_template .arrow-down 
+{
+   display: inline-block;
+   width: 0;
+   height: 0;
+   margin-left: 2px;
+   vertical-align: middle;
+   border-top: 4px solid #000000;
+   border-right: 4px solid transparent;
+   border-left: 4px solid transparent;
+   border-bottom: 0 dotted;
+}
+#wb_ResponsiveMenu1_template .arrow-left 
+{
+   display: inline-block;
+   width: 0;
+   height: 0;
+   margin-left: 4px;
+   vertical-align: middle;
+   border-left: 4px solid #FFFFFF;
+   border-top: 4px solid transparent;
+   border-bottom: 4px solid transparent;
+   border-right: 0 dotted;
+}
+#wb_ResponsiveMenu1_template li a:hover .arrow-down
+{ 
+   border-top-color: #FFFFFF;
+}
+#wb_ResponsiveMenu1_template ul ul li a:hover .arrow-left, #wb_ResponsiveMenu1_template ul ul li .active .arrow-left
+{ 
+   border-left-color: #424242;
+}
+#wb_ResponsiveMenu1_template .toggle,[id^=ResponsiveMenu1_template-submenu]
+{
+   display: none;
+}
+@media all and (max-width:1174px) 
+{
+#wb_ResponsiveMenu1_template 
+{
+   margin: 0;
+}
+#wb_ResponsiveMenu1_template ul li a, #wb_ResponsiveMenu1_template .toggle
+{
+   font-size: 16px;
+   font-weight: bold;
+   font-style: normal;
+   padding: 15px 20px 15px 20px;
+}
+#wb_ResponsiveMenu1_template .toggle + a
+{
+   display: none !important;
+}
+.ResponsiveMenu1_template 
+{
+   display: none;
+   z-index: 9999;
+}
+#ResponsiveMenu1_template 
+{
+   background-color: transparent;
+}
+#wb_ResponsiveMenu1_template > ul > li > a 
+{
+   height: auto;
+}
+#wb_ResponsiveMenu1_template .toggle 
+{
+   display: block;
+   background-color: #FFFFFF;
+   color: #000000;
+   padding: 0px 20px 0px 20px;
+   line-height: 42px;
+   text-decoration: none;
+   border: none;
+}
+#wb_ResponsiveMenu1_template .toggle:hover 
+{
+   background-color: #FFA500;
+   color: #FFFFFF;
+}
+[id^=ResponsiveMenu1_template-submenu]:checked + ul 
+{
+   display: block !important;
+}
+#ResponsiveMenu1_template-title
+{
+   height: 60px;
+   line-height: 60px !important;
+   text-align: right;
+}
+#wb_ResponsiveMenu1_template ul li 
+{
+   display: block;
+   width: 100%;
+}
+#wb_ResponsiveMenu1_template ul ul .toggle,
+#wb_ResponsiveMenu1_template ul ul a 
+{
+   padding: 0 40px;
+}
+#wb_ResponsiveMenu1_template a:hover,
+#wb_ResponsiveMenu1_template ul ul ul a 
+{
+   background-color: #7A7A7A;
+   color: #FFFFFF;
+}
+#wb_ResponsiveMenu1_template ul li ul li .toggle,
+#wb_ResponsiveMenu1_template ul ul a 
+{
+   background-color: #7A7A7A;
+   color: #FFFFFF;
+}
+#wb_ResponsiveMenu1_template ul ul ul a 
+{
+   padding: 15px 20px 15px 60px;
+}
+#wb_ResponsiveMenu1_template ul li a 
+{
+   text-align: left;
+}
+#wb_ResponsiveMenu1_template ul li a br 
+{
+   display: none;
+}
+#wb_ResponsiveMenu1_template ul li i 
+{
+   margin-right: 4px;
+}
+#wb_ResponsiveMenu1_template ul ul 
+{
+   float: none;
+   position: static;
+}
+#wb_ResponsiveMenu1_template ul ul li:hover > ul,
+#wb_ResponsiveMenu1_template ul li:hover > ul 
+{
+   display: none;
+}
+#wb_ResponsiveMenu1_template ul ul li 
+{
+   display: block;
+   width: 100%;
+}
+#wb_ResponsiveMenu1_template ul ul ul li 
+{
+   position: static;
+}
+#ResponsiveMenu1_template-icon 
+{
+   display: block;
+   position: absolute;
+   left: 15px;
+   top: 18px;
+}
+#ResponsiveMenu1_template-icon span 
+{
+   display: block;
+   margin-top: 4px;
+   height: 2px;
+   background-color: #000000;
+   color: #000000;
+   width: 24px;
+}
+#wb_ResponsiveMenu1_template ul li ul li .toggle:hover
+{
+   background-color: #CCCCCC;
+   color: #424242;
+}
+#wb_ResponsiveMenu1_template .toggle .arrow-down 
+{
+   border-top-color: #000000;
+}
+#wb_ResponsiveMenu1_template .toggle:hover .arrow-down, #wb_ResponsiveMenu1_template li .active .arrow-down
+{ 
+   border-top-color: #FFFFFF;
+}
+#wb_ResponsiveMenu1_template ul li ul li .toggle .arrow-down 
+{
+   border-top-color: #FFFFFF;
+}
+#wb_ResponsiveMenu1_template ul li ul li .toggle:hover .arrow-down, #wb_ResponsiveMenu1_template ul li ul li .active .arrow-down
+{ 
+   border-top-color: #424242;
+}
+}
